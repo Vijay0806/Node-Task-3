@@ -31,9 +31,9 @@ try {
   }
 
 
-// app.get('/',(req,res)=>{
-//     res.send("Hi this Vijay!!!")
-// });
+app.get('/',(req,res)=>{
+    res.send("☆☆☆☆Hi this Vijay !!!☆☆☆☆")
+});
 
 app.use('/Mentors',mentorRouter);
 app.use('/Students',studentRouter);
