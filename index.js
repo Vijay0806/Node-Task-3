@@ -32,7 +32,7 @@ try {
 
 
 app.get('/',(req,res)=>{
-    res.send("☆☆☆☆Hi this Vijay !!!☆☆☆☆")
+    res.send("☆☆☆☆Hi this VIJAY !!!☆☆☆☆")
 });
 
 app.use('/Mentors',mentorRouter);
